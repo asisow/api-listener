@@ -3,8 +3,8 @@ const request = require('request');
 
 const app = express();
 
-const login = 'mail@rico-design.info';
-const password = '123';
+const login = '';
+const password = '';
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
